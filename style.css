@@ -1,0 +1,428 @@
+body{
+    --white: white;
+    background-color: white;
+    margin: 0%;
+    min-width: 1024px;
+}
+
+@media only screen and (min-width: 0px)  {
+
+.header---Desktop-HD {
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  display: flex;
+
+  flex-direction: row;
+
+  margin: 0%;
+}
+@font-face {  
+  font-family: 'Geomanist';
+  src: url('fonts//geomanist-regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts//geomanist-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts//geomanist-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts//geomanist-regular.svg') format('svg'); /* Legacy iOS */
+}
+
+.backgroud-image {
+  width: 50%;
+  min-width: 516px;
+  height: 100%;
+  background-size: cover;
+  background-image: url('photo//wallpaper.png');
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.user-name {
+
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--white);
+
+    display: inline-block;
+    position: absolute;
+    top: 54px;
+    left: 169px;
+    margin: 0px;
+  }
+
+  .blog {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--white);
+
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 198px;
+    margin: 0px;
+  }
+
+  .line {
+    width: 19px;
+    height: 0px;
+    border: solid 1px var(--white);
+
+    position: absolute;
+    top: 89px;
+    left: 171px;
+    margin: 0px;
+  }
+
+  .bitmap {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    margin: 0px;
+
+    border-radius: 50%;
+  }
+
+  .headline-H1 {
+    font-family: 'Geomanist';
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1.21;
+
+    color: #2c2c35;
+
+    margin: 0%;
+    padding-left: 10%;
+    /* position: absolute;
+    top: 387px;
+    left: 793px;
+    margin: 0px; */
+  }
+
+  .sub-title {
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.56;
+
+    color: #2c2c35;
+
+
+    margin: 20px 0% 0% 0%;
+    padding-left: 10%;
+    /* position: absolute;
+    top: 523px;
+    left: 793px;
+    margin: 0px; */
+  }
+
+  .right-block{
+    /* justify-content: center; */
+    padding: 18.9% 0px 0px 0px;
+    /* align-items: center; */
+    position: relative;
+
+    margin-left: 50%;
+    /* display: inline-block; */
+    width: 50%;
+    vertical-align: top;
+  }
+
+.ul-style{
+  margin: 0%;
+  position: absolute;
+  top: 80%;
+  left: 84%;
+  padding: 3%;
+}
+
+.li-style{
+  list-style-type: none;
+  margin-bottom: 65%;
+}
+
+.ul-style:hover{
+  background-color: #ff0000;
+  border-radius: 50%;
+  padding: 3%;
+} 
+
+.link-website:hover{
+  background-color: rgb(71, 211, 29);
+}
+
+
+
+  .facebook-logo {
+    width: 1.5em;
+    height: 1.5em;
+    object-fit: contain;
+  }
+
+  .instagram-logo {
+    width: 1.5em;
+    height: 1.5em;
+    object-fit: contain;
+
+  }
+
+  .linkedIn {
+    width: 1.5em;
+    height: 1.5em;
+    object-fit: contain;  
+  }
+
+
+  .arrow-down {
+    margin-top: 20%;
+        
+    display: block;
+    text-align: center;
+    
+  } 
+  @keyframes go-down{
+    0%{
+      opacity: 0;
+      padding-top: 1rem;
+      padding-bottom: 4rem;
+    }
+    50%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      padding-top: 4rem;
+      padding-bottom: 1rem;
+    }
+  }
+  .arrow-down-img {
+
+    width: 4em;
+
+    animation-name: go-down;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .go-to-my-website {
+    position: absolute;
+    bottom: 4%;
+    margin: 0%;
+    white-space: nowrap;
+    width: 40%;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--white);
+
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .goToWebsite-text{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--white);
+
+    display: inline-block;
+    padding-left: 3%;
+  }
+
+  .headline-H2 {
+    font-family: 'Geomanist';
+    font-size: 36px;
+    color: #2c2c35;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    margin-top: 100%;
+    padding-left: 10%;
+  }
+
+  .text {
+
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.75;
+
+    color: #2c2c35;
+
+    padding-right: 9.4%;
+    margin-bottom: 3rem;
+    padding-left: 10%;
+  }
+
+  .sherwood-Forest-Lake {
+    float: left;
+    margin-right: 3rem;
+  }
+  .mountain-lake{
+    width: 100%;
+    background-size: cover;
+  }
+  .mountain-lake-text
+  {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.75;
+
+    text-align: center;
+    color: #ababab;
+
+    margin: 1% 0% 0% 0%;
+  }
+
+  .line-2 {
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+
+  .headline-H3 {
+    width: 454px;
+    height: 37px;
+    font-family: 'Geomanist';
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #2c2c35;
+    padding-left: 10%;
+  }
+
+  .headline-H4 {
+    font-family: 'Geomanist';
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+
+    color: #2c2c35;
+    padding-left: 10%;
+  }
+  .quote{
+      font-family: 'Roboto';
+      font-size: 20px;
+      font-style: italic;
+  
+      line-height: 1.6;
+  
+      text-align: center;
+      color: #2c2c35;
+
+      padding-left: 10%;
+      margin-bottom: 3rem;
+      margin-right: 9.4%;
+      margin-left: 0%;
+  }
+
+  .sea-of-trees-forest-plain {
+    float: right;
+    margin-left: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .bottom{
+    width: 100%;
+    height: 306px;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.15);
+    clear: both;
+
+    position: relative;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .bitmap-2{
+    width: 108px;
+    height: 105.6px;
+
+    float: left;
+
+    margin: 10% 5% 20% 10%; 
+    border-radius: 50%;
+  }
+
+  .author-name {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+
+    color: #2c2c35;
+
+    margin: 0%;
+
+  }
+
+  .author-BIO {  
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: #2c2c35;
+    
+
+  }
+
+  .form-bottom{
+    padding: 10% 9.4% 0% 30%;
+  }
+  .input-form{
+    width: 85%;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: solid 1px #dfe2e6;
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+  }
+  .share{
+    position: absolute;
+    right: 10%;
+    background-color: blue;
+    height: 70px;
+    width: 70px;
+    top: -20px;
+    border-radius: 100%;
+  }
+  
+  .share-img{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+  }
+
+  .share:hover{
+    background-color: red;
+  }
+
+  .button-subscribe{
+    display: inline-block;
+    width: 19%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #29b1cc;
+    margin: 0%;
+    border: solid 1px #dfe2e6;
+    color: var(--white);
+
+    padding: 0%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+  }
+  
+  .button-subscribe:hover{
+    background-color: white;
+    color: black;
+  }
+}
+
+.relative-form{
+  position: relative;
+}
