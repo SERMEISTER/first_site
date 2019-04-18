@@ -327,24 +327,26 @@ body{
 
   .bottom{
     width: 100%;
-    height: 306px;
+    padding-bottom: 80px;
     box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.15);
-    clear: both;
+    display: flex;
 
-    position: relative;
+    position: relative;     
   }
 
   a{
     text-decoration: none;
   }
 
+  .div-bitmap-2{
+    justify-content: right;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+
   .bitmap-2{
     width: 108px;
     height: 105.6px;
-
-    float: left;
-
-    margin: 10% 5% 20% 10%; 
     border-radius: 50%;
   }
 
@@ -370,10 +372,10 @@ body{
   }
 
   .form-bottom{
-    padding: 10% 9.4% 0% 30%;
+    padding: 10% 9.4% 0% 10%;
   }
   .input-form{
-    width: 85%;
+    width: 100%;
     height: 2.5rem;
     border-radius: 20px;
     border: solid 1px #dfe2e6;
@@ -403,7 +405,7 @@ body{
 
   .button-subscribe{
     display: inline-block;
-    width: 19%;
+    width: 80px;
     height: 40px;
     border-radius: 20px;
     background-color: #29b1cc;
@@ -423,6 +425,7 @@ body{
   }
 }
 
-.relative-form{
+.subscribe-form{
   position: relative;
+  width: 100%;
 }
