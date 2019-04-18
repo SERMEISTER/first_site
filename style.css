@@ -95,10 +95,7 @@ body{
 
     margin: 0%;
     padding-left: 10%;
-    /* position: absolute;
-    top: 387px;
-    left: 793px;
-    margin: 0px; */
+    padding-right: 10%;
   }
 
   .sub-title {
@@ -111,10 +108,8 @@ body{
 
     margin: 20px 0% 0% 0%;
     padding-left: 10%;
-    /* position: absolute;
-    top: 523px;
-    left: 793px;
-    margin: 0px; */
+    padding-right: 10%;
+
   }
 
   .right-block{
@@ -240,6 +235,7 @@ body{
     font-stretch: normal;
     margin-top: 100%;
     padding-left: 10%;
+    padding-right: 10%;
   }
 
   .text {
@@ -372,7 +368,7 @@ body{
   }
 
   .form-bottom{
-    padding: 10% 9.4% 0% 10%;
+    padding: 10% 9.4% 0% 5%;
   }
   .input-form{
     width: 100%;
